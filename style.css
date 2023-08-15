@@ -82,8 +82,8 @@ p {
 }
 #header .header {
     min-height: 8vh;
-    background-image: linear-gradient(60deg, #c0392b 0%, #8e44ad 100%);
-    transition: .3s ease background-color;
+    background-color: rgba(31, 30, 30, 0.24);
+    transition: .5s ease background-color;
 }
 .header .nav-bar {
     display: flex;
@@ -97,7 +97,7 @@ p {
 #header .nav-list ul {
     list-style: none;
     position: absolute;
-    background-image: linear-gradient(60deg, #c0392b 0%, #8e44ad 100%);
+    background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -129,7 +129,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgba(240, 240, 255, 0.3);
+    color: rgba(240, 240, 255, 0.05);
     font-size: 9rem;
     letter-spacing: 50px;
     z-index: -1;
@@ -213,7 +213,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #c0392b 0%, #8e44ad 100%);
+    background-color: black;
     opacity: .7;
     z-index: -1;
 }
@@ -304,7 +304,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #c0392b 0%, #8e44ad 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: .7;
     z-index: -1;
 }
@@ -360,17 +360,12 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #c0392b 0%, #8e44ad 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     color: white;
 }
 #projects .project-info h1 {
     font-size: 4rem;
     font-weight: 500;
-}
-#projects .project-info h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 10px;
 }
 #projects .project-info p {
     color: white;
@@ -391,7 +386,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #642B73 0%, #C6426E 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: .5;
 }
 #projects .project-img img {
@@ -518,7 +513,7 @@ p {
 
 /* Start of Footer */
 #footer {
-    background-image: linear-gradient(60deg, #c0392b 0%, #8e44ad 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
     min-height: 200px;
