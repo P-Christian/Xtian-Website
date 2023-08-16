@@ -43,14 +43,14 @@ p {
     text-align: center;
 }
 .section-title span {
-    color: orangered;
+    color: #00bcd4;
 }
 .cta {
     display: inline-block;
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid orangered;
+    border: 2px solid #00bcd4;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -61,7 +61,7 @@ p {
 }
 .cta:hover {
     color: white;
-    background-color: orangered;
+    background-color: #00bcd4;
 }
 .brand h1 {
     font-size: 3rem;
@@ -69,7 +69,7 @@ p {
     color: white;
 }
 .brand h1 span {
-    color: orangered;
+    color: #00bcd4;
 }
 
 /* Header Section */
@@ -141,7 +141,7 @@ p {
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-    color: orangered;
+    color: #00bcd4;
 }
 #header .hamburger {
     height: 60px;
@@ -201,7 +201,7 @@ p {
 
 /* Style for Hero Section*/
 #hero {
-    background-image: url(/assets/Imgs/professional-programmer-working-late-dark-office.jpg);
+    background-image: url(assets/Imgs/professional-programmer-working-late-dark-office.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -249,7 +249,7 @@ p {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: orangered;
+    background-color: #00bcd4;
     animation: text_reveal_box 1s ease;
     animation-delay: .3s;
 }
@@ -291,7 +291,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/assets/Imgs/representations-user-experience-interface-design.jpg);
+    background-image: url(assets/Imgs/representations-user-experience-interface-design.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -404,7 +404,7 @@ p {
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 #about .col-left {
     width: 250px;
@@ -437,6 +437,7 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 20px;
+    list-style-type: none;
 }
 #about .col-right ul li {
     margin-bottom: 10px;
@@ -463,7 +464,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid orangered;
+    border: 7px solid #00bcd4;
     z-index: -1;
 }
 /* End of About */
@@ -577,7 +578,7 @@ p {
 .contact-form .inputBox input:valid ~ span,
 .contact-form .inputBox textarea:focus ~ span,
 .contact-form .inputBox textarea:valid ~ span {
-    color: #e91e63;
+    color: #00bcd4;
     font-size: 12px;
     transform: translateY(-20px);
 }
@@ -659,7 +660,7 @@ p {
 }
 @keyframes text_reveal_name {
     100%{
-        color: orangered;
+        color: #00bcd4;
     }
 }
 /*End of Keyframes*/
@@ -722,7 +723,7 @@ p {
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid orangered;
+        border: 10px solid #00bcd4;
     }
     #about .col-right{
         text-align: left;
