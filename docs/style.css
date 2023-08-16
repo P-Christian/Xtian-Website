@@ -201,7 +201,7 @@ p {
 
 /* Style for Hero Section*/
 #hero {
-    background-image: url(assets/Imgs/professional-programmer-working-late-dark-office.jpg);
+    background-image: url(/docs/assets/Imgs/professional-programmer-working-late-dark-office.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -291,7 +291,7 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(assets/Imgs/representations-user-experience-interface-design.jpg);
+    background-image: url(/docs/assets/Imgs/representations-user-experience-interface-design.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
