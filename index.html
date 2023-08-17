@@ -167,23 +167,23 @@
                     <div class="icon"><i class="fa-regular fa-envelope"></i></div>
                     <div class="text">
                         <h3>Email</h3>
-                        <p>christianparayno27@gmail.com</p>
+                        <p>chca.parayno.28@gmail.com</p>
                     </div>
                 </div>
             </div>
             <div class="contact-form">
-                <form action="">
+                <form onsubmit="sendEmail(); reset(); return false;">
                     <h2>Send Message</h2>
                     <div class="inputBox">
-                        <input type="text" name="name-field" required="required">
+                        <input id="name-field" type="text" name required="required">
                         <span>Full name</span>
                     </div>
                     <div class="inputBox">
-                        <input type="text" name="email-field" required="required">
+                        <input id="email-field" type="text" name required="required">
                         <span>Email</span>
                     </div>
                     <div class="inputBox">
-                        <textarea name="msg-field" required="required"></textarea>
+                        <textarea id="message" name="msg-field" required="required"></textarea>
                         <span>Type your Message...</span>
                     </div>
                     <div class="inputBox">
@@ -216,5 +216,6 @@
     </section>
     <!-- End of Footer -->
     <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>

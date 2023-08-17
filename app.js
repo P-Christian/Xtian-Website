@@ -22,3 +22,17 @@ menu_item.forEach((item) => {
         mobile_menu.classList.toggle('active');
     })
 });
+
+function sendEmail() {
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "chca.parayno.28@gmail.com",
+        Password : "06ADCFF6FA97C5B92BF9FD82389F65C56A59",
+        To : 'christianparayno27@gmail.com',
+        From : "christianparayno27@gmail.com",
+        Subject : "New Contact Form Enquiry",
+        Body : "Email: " + document.getElementById('email-field').value + "<br> Name: " + document.getElementById('name-field').value + "<br> Message: " + document.getElementById('message').value
+    }).then(
+      message => alert(message)
+    );
+}
